@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.1" target="_blank">
+  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Visita_ingecodex.com-0071e3?style=for-the-badge&logo=wordpress" alt="Visita ingecodex.com" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.1" target="_blank">
+  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6" target="_blank">
     <img src="https://img.shields.io/badge/Website-ingecodex.com-blue?style=for-the-badge" alt="Ingecodex.com" />
   </a>
   <a href="https://wordpress.org" target="_blank">
@@ -25,17 +25,17 @@
   <a href="https://php.net" target="_blank">
     <img src="https://img.shields.io/badge/PHP-7.4--8.3-777bb4?style=for-the-badge" alt="PHP 7.4 - 8.3" />
   </a>
-  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.1" target="_blank">
+  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6" target="_blank">
     <img src="https://img.shields.io/badge/Uso-Gratuito-brightgreen?style=for-the-badge" alt="Uso Gratuito" />
   </a>
-  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.1" target="_blank">
+  <a href="https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6" target="_blank">
     <img src="https://img.shields.io/badge/2FA-TOTP%20RFC%206238-brightgreen?style=for-the-badge" alt="2FA TOTP" />
   </a>
 </p>
 
 ---
 
-🚀 **[Visita ingecodex.com para ver todas las características, screenshots y descargas →](https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5)**
+🚀 **[Visita ingecodex.com para ver todas las características, screenshots y descargas →](https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6)**
 
 ---
 
@@ -75,13 +75,15 @@ Portal público donde el solicitante ingresa su código enviado por correo para 
 
 ## 🏆 Recommended Version / Versión Recomendada
 
-> **v2.5.4** is the latest version with independent portal, 2FA login, and full file support.
+> **v2.5.6** is the latest version with Universal Headless Engine, API REST & CORS, CRM Kanban, and Form Studio visual builder.
 
-> **v2.5.4** es la última versión con portal independiente, login 2FA y soporte completo de archivos.
+> **v2.5.6** es la última versión con Motor Universal Headless, API REST & CORS, CRM con Tablero Kanban y Constructor Visual Form Studio.
 
 | Version | Notes |
 |---|---|
-| **2.5.4** ⭐ | **Latest — Recommended** / Portal Independiente, Login 2FA, Archivos Completos |
+| **2.5.6** ⭐ | **Latest — Recommended** / Motor Headless Universal, CRM Kanban, Trazabilidad de Casos |
+| 2.5.5 | Version 2.5.5 |
+| 2.5.4 | Portal Independiente, Login 2FA, Archivos Completos |
 | 2.5.3-beta | Pulido Visual Premium — Auditoría de Alta Gama |
 | 2.5.2 | Portal Ejecutivo Independiente — Login Liquid Glass 2FA |
 | 2.5.1 | Editor Actualizado y Dashboard Mejorado |
@@ -96,13 +98,24 @@ Portal público donde el solicitante ingresa su código enviado por correo para 
 | 2.4.1 | Diagnóstico y Avisos SMTP |
 | 2.4.0 | Constructor Visual Form Studio y Enrutamiento |
 
-[📥 Download v2.5.4 (latest)](https://github.com/ingecodex/webingecodex-extension/raw/main/public/downloads/ingecodex-form-2.5.4.zip) · [All versions](https://github.com/ingecodex/webingecodex-extension/tree/main/public/downloads)
+[📥 Download v2.5.6 (latest)](https://github.com/ingecodex/webingecodex-extension/raw/main/public/downloads/ingecodex-form-2.5.6.zip) · [All versions](https://github.com/ingecodex/webingecodex-extension/tree/main/public/downloads)
 
-> 💡 **¿Quieres ver todas las características en acción?** Visita [ingecodex.com](https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.4) para una demo interactiva y descargas directas.
+> 💡 **¿Quieres ver todas las características en acción?** Visita [ingecodex.com](https://ingecodex.com?utm_source=github&utm_medium=readme&utm_campaign=v2.5.6) para una demo interactiva y descargas directas.
 
 ---
 
 ## 📚 Changelog
+
+### 🟣 v2.5.6 — *Motor Universal Headless, CRM Kanban y Trazabilidad Avanzada*
+- **⚡ Motor Universal Headless con API REST & CORS (`/wp-json/universal-form/v1/`):** Ahora puedes incrustar tus formularios en cualquier sitio web externo (React, Vue, HTML plano u otro CMS) con el widget JavaScript vanilla `universal-widget.js`.
+- **Tokens de 20 caracteres:** Para vincular y rastrear formularios y seguidores de procesos independientes desde el exterior.
+- **📋 Trazabilidad de Casos y Tickets:** Código único de seguimiento, línea de tiempo pública/privada, firma digital y solicitudes interactivas de documentación o presencia física.
+- **📥 CRM con Tablero Kanban:** Gestión de estados (Recibido, En Revisión, En Proceso, Pendiente, Resuelto, Cerrado), control de roles (Superadmin, Directores, Encargados de Área) y papelera con recuperación.
+- **🛠️ Constructor Visual (Form Studio) & Personalizador en Vivo:** Editor visual drag & drop para crear campos ilimitados y personalizar el portal público.
+- **🔒 100% Estable y Libre de Errores:** Compatibilidad total con Elementor (`[formulario_universal]`), sintaxis CSS corregida, 2FA TOTP nativo y servidor SMTP integrado con diagnósticos en tiempo real.
+
+### 🟤 v2.5.5 — *Pulido y Optimización*
+- Mejoras de estabilidad, correcciones y optimizaciones generales.
 
 ### 🔵 v2.5.4 — *Consolidación, Corrección de Errores y Soporte de Adjuntos*
 - **Fix Crítico de JavaScript en el Formulario:** Se reparó error de sintaxis que congelaba el formulario al subir documentos.
@@ -190,6 +203,7 @@ Portal público donde el solicitante ingresa su código enviado por correo para 
 
 | Shortcode | Descripción |
 |---|---|
+| `[formulario_universal]` | Formulario Universal vía API REST & CORS (Headless, incrustable en HTML) |
 | `[Formulario_Ingecodex]` | Formulario de contacto principal (Recomendado) |
 | `[seguimiento_caso]` | Portal público de consulta de estado por código de ticket |
 | `[formulario_ingecodex]` | Alias alternativo del formulario |
@@ -199,7 +213,7 @@ Portal público donde el solicitante ingresa su código enviado por correo para 
 
 ## 📦 Instalación
 
-1. Descarga el paquete ZIP de la versión deseada (`ingecodex-form-2.5.4.zip`).
+1. Descarga el paquete ZIP de la versión deseada (`ingecodex-form-2.5.6.zip`).
 2. En tu WordPress, ve a **Plugins > Añadir nuevo plugin > Subir plugin**.
 3. Selecciona el archivo ZIP, pulsa **Instalar ahora** y luego **Activar plugin**.
 4. Accede a **Ingecodex Form** en la barra lateral para gestionar la bandeja de casos o configurar formularios.
